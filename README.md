@@ -12,8 +12,8 @@ Before you begin, ensure you have the following installed:
 To clone this repository, run the following command in your terminal:
 
 ```bash
-[git clone https://github.com/Akash23q2/iot_remote ]
-
+git clone https://github.com/Akash23q2/iot_remote 
+```
 ## Run
 
 To Use it just open the folder and double click on index.html
