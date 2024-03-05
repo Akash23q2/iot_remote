@@ -1,0 +1,86 @@
+        #addBtn {
+          font-size: 20px;
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          width: 80px;
+          height: 50px;
+          border-radius: 18px;
+          background-color: #000000;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none;
+          padding: 0;
+          outline: none;
+          cursor: pointer;
+        }
+
+        #addBtn i {
+          margin: 0;
+        }
+
+        .toggle-card {
+          border-radius: 8px;
+          margin-bottom: 10px;
+          overflow: hidden;
+          width: 100%;
+          border: 1px solid #ddd;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+          padding: 10px;
+          text-align: center;
+        }
+
+        .card-body {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px;
+        }
+
+        .toggle {
+          transform: scale(1.25);
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          width: 50px;
+          height: 25px;
+          background-color: #B7B9B8;
+          border-radius: 12px;
+          outline: none;
+          cursor: pointer;
+          position: relative;
+          margin-right: 10px;
+          transition: background-color 0.3s;
+        }
+
+        .toggle:checked {
+          background-color: #1AE139;
+        }
+
+        .toggle:before {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border-radius: 50%;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 2px;
+          transition: left 0.3s;
+        }
+
+        .toggle:checked:before {
+          left: calc(100% - 22px);
+        }
+
+        .removeBtn {
+          font-size: 20px;
+          color: red;
+          cursor: pointer;
+        }
